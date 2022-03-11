@@ -20,7 +20,15 @@ body{
   a:link, a:visited{
       color: blue;
   }
-    
+
+.pricing{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
   .card > header {
     border: 2px solid #45ADAD;
     border-radius: 50px 50px 0px 0px;
@@ -30,14 +38,7 @@ body{
     div.card{
         border-radius: 50px 50px 0px 0px;
         }
-
-  .pricing{
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-  }
+ 
 
   .card {
     flex-basis: 450px;
